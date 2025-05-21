@@ -1,6 +1,6 @@
 # disign
 
-A new Flutter project.
+A mobile flutter projet  for my independent research.
 
 ## Getting Started
 
