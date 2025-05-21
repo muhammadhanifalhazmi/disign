@@ -1,0 +1,29 @@
+import 'user_info_model.dart';
+
+class RevokeResponse {
+  bool? isRevoked;
+  String? message;
+  Certificate? certificate;
+
+  RevokeResponse({this.isRevoked, this.message, this.certificate});
+
+  RevokeResponse.fromJson(Map<String, dynamic> json) {
+    isRevoked = json['isRevoked'];
+    message = json['message'].toString();
+    certificate = json['certificate'] != null
+        ? Certificate?.fromJson(json['certificate'])
+        : null;
+  }
+
+  Map<String, dynamic> toJson() {
+    final data = <String, dynamic>{};
+    data['isRevoked'] = isRevoked;
+    data['message'] = message;
+    if (certificate != null) {
+      data['certificate'] = certificate?.toJson();
+    }
+    return data;
+  }
+}
+
+

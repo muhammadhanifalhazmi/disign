@@ -1,0 +1,13 @@
+{
+	"devices": [
+		{
+			"id": 8,
+			"user_id": 8,
+			"hwid": "86E54A62-DA10-4989-B630-38B83E654FC9",
+			"device_name": "iPhoneX",
+			"created_at": "2023-06-03T16:18:19.000000Z",
+			"updated_at": "2023-06-03T16:18:19.000000Z",
+			"active_certificate": null
+		}
+	]
+}

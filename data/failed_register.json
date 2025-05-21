@@ -1,0 +1,11 @@
+{
+	"message": {
+		"username": ["The username field is required."],
+		"name": ["The name field is required."],
+		"email": ["The email field is required."],
+		"password": ["The password field is required."],
+		"pin": ["The pin field is required."],
+		"hwid": ["The hwid field is required."],
+		"device_name": ["The device name field is required."]
+	}
+}
